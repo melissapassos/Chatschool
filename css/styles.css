@@ -6,26 +6,18 @@ prioridade:
 	ordem 
 */
 
-* {
-	box-sizing: border-box;
-}
+@import url('grid.css');
+@import url('reset.css');
+@import url('buttons.css');
+
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-	padding: 0;
-}
-
-a {
-	text-decoration: none;
 }
 
 #header .btn {
-	background-color: rgb(84, 209, 84);
 	font-size: 16px;
-	border-radius: 30px;
 	padding: 10px 30px;
-
 }
 
 #header .btn:hover {
@@ -59,6 +51,7 @@ a {
 
 #header a {
 	color: #ffffff;
+	transition: ease .5s all;
 }
 
 #header nav {
