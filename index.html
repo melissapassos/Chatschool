@@ -3,35 +3,43 @@
 <head>
 	<meta charset="utf-8">
 	<title>Chatschool</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
 </head>
-<body style="background: #ccc">
+<body>
 	<header id="header">
-		<div class="row">
-			<div class="col"><img src="images/logo.png" alt="Logo da Chatschool"></div>
-			<div class="col">
-				<nav>
-					<ul>
-						<li><a href="index.html"> Home</a></li>
-						<li><a href="quem-somos.html">Quem Somos</a></li>
-						<li><a href="clientes.html">Clientes</a></li>
-						<li><a href="equipe.html">Equipe</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col col-desktop-3">
+					<a href="index.html">
+						<img src="images/logo.png" alt="Logo da Chatschool">
+					</a>
+				</div>
+				<div class="col col-desktop-9">
+					<nav>
+						<ul>
+							<li><a href="index.html" class="active"> Home</a></li>
+							<li><a href="quem-somos.html">Quem Somos</a></li>
+							<li><a href="clientes.html">Clientes</a></li>
+							<li><a href="equipe.html">Equipe</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<h1>Alta produtividade em tempo real</h1>
-				<a href="">Começar agora</a>
+			<div class="row">
+				<div class="col col-desktop-12 title">
+					<h1>Alta produtividade em tempo real</h1>
+					<a href="" class="btn">Começar agora</a>
+				</div>
 			</div>
-		</div>
-	</header>
-	<main>
-		<section id="how-it-work">Como funciona</section>
-		<section id="customers">Nossos clientes</section>
-		<section id="team">Nosso time</section>
-	</main>
-	<footer id="footer">Rodapé</footer>
-</body>
-</html>
+		</header>
+		<main>
+			<section id="how-it-work">Como funciona</section>
+			<section id="customers">Nossos clientes</section>
+			<section id="team">Nosso time</section>
+		</main>
+		<footer id="footer">Rodapé</footer>
+	</body>
+	</html>
