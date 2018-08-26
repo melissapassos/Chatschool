@@ -8,3 +8,6 @@ Tecnologias Utilizadas:
 
 Ferramentas:
 - Sublime Text.
+
+Bibliotecas utilizadas:
+- Material Icons.

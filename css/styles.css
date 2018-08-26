@@ -9,10 +9,13 @@ prioridade:
 @import url('grid.css');
 @import url('reset.css');
 @import url('buttons.css');
+@import url('typography.css');
+@import url('icons.css');
 
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: rgb(130, 130, 130);
 }
 
 #header .btn {
@@ -74,4 +77,5 @@ body {
 
 #how-it-work {
 	text-align: center;
+	padding: 30px 0 30px 0;
 }
