@@ -18,7 +18,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(130, 130, 130);
 	line-height: 25px;
-	line-height: 25px;
 }
 
 #header .btn {
@@ -86,56 +85,56 @@ body {
 }
 
 #footer {
-	background-color: rgb(51, 51, 51); 
-		text-align: left;
+    background-color: rgb(51, 51, 51);
+    text-align: left;
 }
 
 #footer, #footer a {
-	color: rgb(204, 204, 204);
+    color: rgb(204, 204, 204);
 }
 
 #footer h3, #footer nav li {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #footer h3:after {
-	content: ' ';
-	display: block;
-	border-bottom: 2px solid rgb(204, 204, 204) ;
-	width: 30px;
+    content: '';
+    display: block;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    width: 30px;
 }
 
 #footer nav li {
-	padding: 3px 0;
+    padding: 3px 0;
 }
 
 #footer nav li a:hover {
-	color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 #footer .social {
-	height: 200px;
-	line-height: 200px;
-	text-align: right;
+    height: 200px;
+    line-height: 200px;
+    text-align: right;
 }
 
 #footer .social a {
-	display: inline-block;
-	padding: 0 0 0 10px;
-	opacity: 1;
+    display: inline-block;
+    padding: 0 0 0 10px;
+    opacity: 1;
 }
 
 #footer .social a:hover {
-	opacity: .5;
-	transition: .3s all;
+    opacity: .5;
+    transition: ease .3s all;
 }
 
 #footer .social img {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 #copyright {
-	text-align: center;
-	background-color: rgb(24, 24, 24);
-	padding: 10px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
 }

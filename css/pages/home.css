@@ -28,8 +28,8 @@
 	font-size: 16px;
 }
 
-#customers, .container {
-	max-width: 100%;
+#customers .container {
+	max-width: 1000px;
 }
 
 #team {
