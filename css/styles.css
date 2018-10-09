@@ -18,6 +18,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(130, 130, 130);
 	line-height: 25px;
+	line-height: 25px;
 }
 
 #header .btn {
@@ -46,7 +47,7 @@ body {
 }
 
 #header {
-	background: #000 no-repeat;
+	background: #000 no-repeat fixed;
 	background-size: cover;
 	color: #ffffff;
 	width: 100%;
