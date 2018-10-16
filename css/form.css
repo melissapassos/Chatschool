@@ -41,5 +41,5 @@ input:focus::placeholder, textarea:focus::placeholder {
     top: -25px;
     font-size: 12px;
     transition: ease .5s all;
-    opacity: 1;
 }
+
