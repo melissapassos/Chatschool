@@ -1,44 +1,45 @@
 input, textarea {
-	border: 1px solid #aaa;
-	border-radius: 2px;
-	margin-bottom: 30px;
-	padding: 10px;
-	width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
 }
 
 input[type="submit"] {
-	width: auto;
+    width: auto;
 }
 
 textarea {
-	height: 170px;
+    height: 170px;
 }
 
 input:focus, textarea:focus {
-	outline: 1px solid #777;
+    outline: 1px solid #777;
 }
 
 input::placeholder, textarea::placeholder {
-	color: white;
+    color: white;
 }
 
 input:focus::placeholder, textarea:focus::placeholder {
-	color: #aaa;
+    color: #aaa;
 }
 
+
 .input-control {
-	position: relative;
+    position: relative;
 }
 
 .input-control label {
-	position: absolute;
-	top: 5px;
-	left: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 
-.input-control input:focus ~ label, .input-contol textarea:focus ~ label {
-	top: -25px;
-	font-size: 12px;
-	transition: ease .5s all;
-	opacity: 1;
+.input-control input:focus ~ label, .input-control textarea:focus ~ label {
+    top: -25px;
+    font-size: 12px;
+    transition: ease .5s all;
+    opacity: 1;
 }
